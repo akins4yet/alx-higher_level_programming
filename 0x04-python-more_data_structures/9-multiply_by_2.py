@@ -7,6 +7,6 @@ def multiply_by_2(a_dictionary):
             newval = value * 2
             tmp = {key: newval}
             dict.update(tmp)
-        return (dict)
+        return dict
     return None
 
